@@ -8,6 +8,11 @@ duplicates. This is in hopes of triggering any round-robbin DNS resolver to get 
 domain resolves to.
 
 # Build/Run
+The easiest way to run is with the container image:
+```
+docker run -it --rm registry.gitlab.com/aro5000/ip-hunter:latest domain.to.query.here
+```
+Using python directly:
 ```
 usage: main.py [-h] target
 
