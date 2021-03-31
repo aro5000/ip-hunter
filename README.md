@@ -1,10 +1,10 @@
-# IP-HUTNER
+# IP-HUNTER
 This is now open sourced from a previous project I worked on. This may not help in all scenarios but has helped me before to get away from making a cheesy "dig/nslookup loop" script.
 
 This tool will query various DNS servers in hopes of getting all IP's a particular domain resolves to.
 
-It will query Google DNS, Cloudflare DNS, and whatever the local resolver is 4 times and remove any 
-duplicates. This is in hopes of triggering any round-robbin DNS resolver to get any possible IP a 
+It will query Google DNS, Cloudflare DNS, and whatever the local resolver is 4 times and remove any
+duplicates. This is in hopes of triggering any round-robbin DNS resolver to get any possible IP a
 domain resolves to.
 
 # Build/Run
@@ -27,7 +27,7 @@ Use the following commands to build and run this tool as a container:
 ```
 docker build -t iphunter .
 docker run -it --rm iphunter <domain>
-``` 
+```
 
 ## Local
 Use the following commands to build and run this tool locally:
