@@ -2,3 +2,6 @@ venv/
 .idea/
 */__pycache__/
 src/OLD_main.py
+#ip-hunter
+.vscode/
+.vscode/*
